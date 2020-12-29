@@ -33,7 +33,3 @@ button:hover {
     pointer-events: none;
     color: #aaa;
 }
-
-.top_bar {
-    float: right;
-}
