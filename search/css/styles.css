@@ -2,6 +2,14 @@ body {
     display: block;
 }
 
+center {
+    padding-top: 50px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
 .main {
     width: 50%;
     margin: 50px auto;
