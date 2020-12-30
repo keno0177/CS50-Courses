@@ -4,10 +4,11 @@ body {
 
 center {
     padding-top: 50px;
+    text-align: -webkit-center;
 }
 
-button:hover {
-    box-shadow: 1px 1px 1px 1px grey;
+.btn:hover {
+    box-shadow: 1px 1px 1px 1px rgb(230, 221, 221);
 }
 
 .main {
@@ -32,4 +33,53 @@ button:hover {
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+
+ul.nav {
+    padding-left: 1150px;
+}
+
+span.goimg {
+    text-align: right;
+}
+
+.search {
+    width: 90%;
+    height: 45px;
+    padding-left: 30px;
+    border: 0.5px solid rgb(230, 221, 221);
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.search:hover {
+    box-shadow: 1px 1px 0px 1px rgb(230, 221, 221);
+}
+
+input:focus {
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.seico {
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.goimg {
+    left: 105px;
+    top: -12px;
+    position: relative;
+    color: #4285f4;
+    white-space: nowrap;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: roboto-regular, arial, sans-serif;
 }
