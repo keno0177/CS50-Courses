@@ -46,7 +46,7 @@ span.goimg {
 .search {
     width: 90%;
     height: 45px;
-    padding-left: 30px;
+    padding-left: 50px;
     border: 0.5px solid rgb(230, 221, 221);
     border-radius: 25px;
     margin-bottom: 30px;
@@ -82,4 +82,23 @@ input:focus {
     font-size: 16px;
     line-height: 16px;
     font-family: roboto-regular, arial, sans-serif;
+}
+
+.lbltxt {
+    width: auto;
+    font-size: 12px;
+    text-align: left;
+}
+
+.adsearch {
+    font-size: 20px;
+    padding-left: 30px;
+    color: #d93025;
+}
+
+.gy3Eif {
+    border-bottom: 1px solid #ebebeb;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(235, 235, 235);
 }
