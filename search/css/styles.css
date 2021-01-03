@@ -7,6 +7,11 @@ center {
     text-align: -webkit-center;
 }
 
+.gobtn {
+    align-content: center;
+    display: flex;
+}
+
 .btn:hover {
     box-shadow: 1px 1px 1px 1px rgb(230, 221, 221);
 }
@@ -33,10 +38,6 @@ center {
     text-align: center;
     pointer-events: none;
     color: #aaa;
-}
-
-ul.nav {
-    padding-left: 1150px;
 }
 
 span.goimg {
@@ -101,4 +102,14 @@ input:focus {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(235, 235, 235);
+}
+
+.top_bar {
+    padding: 10px;
+}
+
+.gb_sc {
+    background-image: url(//ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
 }

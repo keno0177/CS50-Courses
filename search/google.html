@@ -12,14 +12,27 @@
 
 <body>
     <div class="top_bar">
-        <ul class="nav">
+        <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="image.html">Images</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advance.html">Advanced</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+            </li>
+        </ul>
+        <!-- <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link" href="image.html">Image</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="advance.html">Advance</a>
             </li>
-        </ul>
+            <input type="submit">
+
+        </ul> -->
     </div>
 
     <div class="main">
@@ -35,7 +48,10 @@
                 <span class="fa fa-search form-control-feedback seico"></span>
                 <input class="search " type="text" name="q">
             </div>
-            <input class="btn btn-light" type="submit" value="Google Search">
+            <div class="text-center">
+                <input class="btn btn-light text-center" type="submit" value="Google Search">
+            </div>
+
         </form>
         <div style="height: 30px;"></div>
         <p class="mt-4 text-center">Google offered in: <a href="#">English</a></p>
